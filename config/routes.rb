@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
+=======
+  devise_for :users
+  resources :faculties
+
+>>>>>>> d92e416f4c628a4e59c9d2530f4e8204f474694b
   resources :authors
 
   resources :theses
